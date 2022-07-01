@@ -8,8 +8,11 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <div className="App">
-      <h1 style={{textAlign : "center"}}>Movie List</h1>
-      <Navbar />
+      <div style={{ backgroundColor: "aqua" }}>
+        <h1 style={{ textAlign: "center" }}>Movie List</h1>
+        <Navbar />
+      </div>
+
       <Routes>
         <Route path="/movies" element={<Movies />} />
         <Route path="/favorites" element={<Favorite />} />

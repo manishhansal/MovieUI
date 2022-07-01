@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const myDiv = {
   display: "flex",
   justifyContent: "space-around",
-    alignItems: "center",
+  alignItems: "center",
+  backgroundColor:"aqua"
   
 };
 
